@@ -1,0 +1,6 @@
+c_taxonomy.export_skills_and_tags:
+  title: 'Export Skills and Tags'
+  parent: system.admin_structure
+  description: 'Manage tags header types.'
+  route_name: c_taxonomy.export_skills_and_tags
+  weight: 10

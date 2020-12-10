@@ -1,0 +1,4 @@
+services:
+  c_taxonomy.exel_generator:
+    class: \Drupal\c_taxonomy\Service\ExelFileGenerator
+    arguments: ['@entity_type.manager', '@file_system']

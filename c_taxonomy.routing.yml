@@ -1,0 +1,14 @@
+c_taxonomy.export_skills_and_tags:
+  path: '/admin/structure/export_skills_and_tags'
+  defaults:
+    _form: 'Drupal\c_taxonomy\Form\ExportSkillsAndTagsForm'
+    _title: 'Export Skills and Tags'
+  requirements:
+    _permission: 'administer site configuration'
+c_taxonomy.download_skills_and_tags:
+  path: '/admin/structure/download_skills_and_tags'
+  defaults:
+    _controller: 'Drupal\c_taxonomy\Controller\ExportController::downloadSkillsAndTags'
+    _title: 'Export Skills and Tags'
+  requirements:
+    _permission: 'administer site configuration'

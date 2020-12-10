@@ -1,0 +1,5 @@
+name: 'Custom Taxonomy Functionality'
+type: module
+description: 'Manage Taxonomy'
+package: Custom
+core: 8.x
