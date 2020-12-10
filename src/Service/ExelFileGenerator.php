@@ -83,8 +83,8 @@ class ExelFileGenerator {
       $sheet = $spreadsheet->getActiveSheet();
       $row_index = $sheet->getHighestDataRow();
       // Avoid to rewrite the first line.
-      // We need to add the checking because when we hav an empty file
-      // the $row_index will be 1. It happened beause the Exel index starts
+      // We need to add the checking because when we have an empty file
+      // the $row_index will be 1. It happened because the Exel index starts
       // from 1. It can't be less than 1.
       // So when there 0 lines we have row_index=1
       // and whne we have 1 line we also have row_index=1.
